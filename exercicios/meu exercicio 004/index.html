@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu teste de imagem grande media e pequena</title>
+</head>
+<body>
+    <h1>imagens que se adapta conforme o tamanho da sua tela</h1>
+
+    <picture>
+
+        <source media="(max-width: 750px)" srcset="imagens/img.adp.002.png" type="image/png">
+
+        <source media="(max-width: 1000px)" srcset="imagens/img.adp.001.png" type="image/png">
+
+    
+         
+        <img src="imagens/img.adp.00.png" alt="imagem flexivel">
+
+    </picture>
+
+    
+</body>
+</html>
